@@ -1,10 +1,11 @@
 import React, { useState, Fragment } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, incrementAsync, selectCount } from './productListSlice';
+import { increment, incrementAsync, selectCount } from '../productSlice';
 import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 
+import { Link } from 'react-router-dom';
 import {
   ChevronDownIcon,
   FunnelIcon,
@@ -12,7 +13,6 @@ import {
   PlusIcon,
   Squares2X2Icon,
 } from '@heroicons/react/20/solid';
-
 const sortOptions = [
   { name: 'Most Popular', href: '#', current: true },
   { name: 'Best Rating', href: '#', current: false },
@@ -20,7 +20,6 @@ const sortOptions = [
   { name: 'Price: Low to High', href: '#', current: false },
   { name: 'Price: High to Low', href: '#', current: false },
 ];
-
 const filters = [
   {
     id: 'color',
@@ -58,11 +57,9 @@ const filters = [
     ],
   },
 ];
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
-
 const products = [
   {
     id: 1,
@@ -95,12 +92,10 @@ const products = [
     color: 'Black',
   },
 ];
-
 export default function ProductList() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-
   return (
     <div className="bg-white">
       <div>
@@ -122,7 +117,6 @@ export default function ProductList() {
             >
               <div className="fixed inset-0 bg-black bg-opacity-25" />
             </Transition.Child>
-
             <div className="fixed inset-0 z-40 flex">
               <Transition.Child
                 as={Fragment}
@@ -147,7 +141,6 @@ export default function ProductList() {
                       <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                     </button>
                   </div>
-
                   {/* Filters */}
                   <form className="mt-4 border-t border-gray-200">
                     {filters.map((section) => (
@@ -213,13 +206,11 @@ export default function ProductList() {
             </div>
           </Dialog>
         </Transition.Root>
-
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">
               All Products
             </h1>
-
             <div className="flex items-center">
               <Menu as="div" className="relative inline-block text-left">
                 <div>
@@ -231,7 +222,6 @@ export default function ProductList() {
                     />
                   </Menu.Button>
                 </div>
-
                 <Transition
                   as={Fragment}
                   enter="transition ease-out duration-100"
@@ -265,7 +255,6 @@ export default function ProductList() {
                   </Menu.Items>
                 </Transition>
               </Menu>
-
               <button
                 type="button"
                 className="-m-2 ml-5 p-2 text-gray-400 hover:text-gray-500 sm:ml-7"
@@ -283,12 +272,10 @@ export default function ProductList() {
               </button>
             </div>
           </div>
-
           <section aria-labelledby="products-heading" className="pb-24 pt-6">
             <h2 id="products-heading" className="sr-only">
               Products
             </h2>
-
             <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
               {/* Filters */}
               <form className="hidden lg:block">
@@ -350,7 +337,6 @@ export default function ProductList() {
                   </Disclosure>
                 ))}
               </form>
-
               {/* Product grid */}
               <div className="lg:col-span-3">
                 {/* This is our products list  */}
@@ -358,6 +344,7 @@ export default function ProductList() {
                   <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
                     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
                       {products.map((product) => (
+                        <Link to="/product-detail">
                         <div key={product.id} className="group relative">
                           <div className="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                             <img
@@ -386,6 +373,7 @@ export default function ProductList() {
                             </p>
                           </div>
                         </div>
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -394,7 +382,6 @@ export default function ProductList() {
               {/* Product grid end */}
             </div>
           </section>
-
           {/* section of product and filters ends */}
           <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
             <div className="flex flex-1 justify-between sm:hidden">
