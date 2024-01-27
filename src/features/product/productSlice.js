@@ -1,10 +1,11 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fetchAllProducts,fetchProductsByFilter } from './productListAPI';
+import { fetchAllProducts,fetchProductsByFilters } from './productAPI';
 
 const initialState = {
   products: [],
   status: 'idle',
 };
+
 
 export const fetchAllProductsAsync = createAsyncThunk(
   'product/fetchAllProducts',
@@ -14,23 +15,23 @@ export const fetchAllProductsAsync = createAsyncThunk(
     return response.data;
   }
 );
-
-
-export const fetchProductsByFilterAsync= createAsyncThunk(
-  'product/fetchProductsByFilter',
-  async (filter) => {
-    const response = await fetchProductsByFilter(filter);
+export const fetchProductsByFiltersAsync = createAsyncThunk(
+  'product/fetchProductsByFilters',
+  async ({filter,sort}) => {
+    const response = await fetchProductsByFilters(filter,sort);
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
 );
+
+
 
 export const productSlice = createSlice({
   name: 'product',
   initialState,
   reducers: {
     increment: (state) => {
-      state.value += 1; // This line is unnecessary unless you have a 'value' property in your state
+      state.value += 1;
     },
   },
   extraReducers: (builder) => {
@@ -40,14 +41,14 @@ export const productSlice = createSlice({
       })
       .addCase(fetchAllProductsAsync.fulfilled, (state, action) => {
         state.status = 'idle';
-        state.products = action.payload; // Corrected line
+        state.products = action.payload;
       })
-      .addCase(fetchProductsByFilterAsync.pending, (state) => {
+      .addCase(fetchProductsByFiltersAsync.pending, (state) => {
         state.status = 'loading';
       })
-      .addCase(fetchProductsByFilterAsync.fulfilled, (state, action) => {
+      .addCase(fetchProductsByFiltersAsync.fulfilled, (state, action) => {
         state.status = 'idle';
-        state.products = action.payload; // Corrected line
+        state.products = action.payload;
       });
   },
 });
