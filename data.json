@@ -4,9 +4,9 @@
       "id": "1",
       "title": "iPhone 9",
       "description": "An apple mobile which is nothing like apple",
-      "price": 549,
+      "price": 993,
       "discountPercentage": 12.96,
-      "rating": 4.69,
+      "rating": 0,
       "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
@@ -15,17 +15,17 @@
         "https://i.dummyjson.com/data/products/1/1.jpg",
         "https://i.dummyjson.com/data/products/1/2.jpg",
         "https://i.dummyjson.com/data/products/1/3.jpg",
-        "https://i.dummyjson.com/data/products/1/4.jpg",
         "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": "2",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
+      "price": 1111,
       "discountPercentage": 17.94,
-      "rating": 4.44,
+      "rating": 0,
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
@@ -35,7 +35,8 @@
         "https://i.dummyjson.com/data/products/2/2.jpg",
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
-      ]
+      ],
+      "deleted": true
     },
     {
       "id": "3",
@@ -56,9 +57,9 @@
       "id": "4",
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
+      "price": 300,
       "discountPercentage": 17.91,
-      "rating": 4.3,
+      "rating": 0,
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
@@ -67,7 +68,6 @@
         "https://i.dummyjson.com/data/products/4/1.jpg",
         "https://i.dummyjson.com/data/products/4/2.jpg",
         "https://i.dummyjson.com/data/products/4/3.jpg",
-        "https://i.dummyjson.com/data/products/4/4.jpg",
         "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
       ]
     },
@@ -92,9 +92,9 @@
       "id": "6",
       "title": "MacBook Pro",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
+      "price": 1999,
       "discountPercentage": 11.02,
-      "rating": 4.57,
+      "rating": 0,
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
@@ -103,7 +103,7 @@
         "https://i.dummyjson.com/data/products/6/1.png",
         "https://i.dummyjson.com/data/products/6/2.jpg",
         "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/4.jpg"
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
       ]
     },
     {
@@ -169,7 +169,7 @@
       "price": 1099,
       "discountPercentage": 6.18,
       "rating": 4.43,
-      "stock": 89,
+      "stock": 0,
       "brand": "HP Pavilion",
       "category": "laptops",
       "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
@@ -1838,6 +1838,41 @@
         "https://i.dummyjson.com/data/products/100/3.jpg",
         "https://i.dummyjson.com/data/products/100/thumbnail.jpg"
       ]
+    },
+    {
+      "title": "Mac Book Air ",
+      "description": "Mac Book Air ",
+      "brand": "Apple",
+      "category": "laptops",
+      "price": 1111,
+      "discountPercentage": 11,
+      "stock": 22,
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": [
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png",
+        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+      ],
+      "id": "101"
+    },
+    {
+      "id": "a7db",
+      "title": "X15 pro max",
+      "description": "It is amazing product . ",
+      "brand": "Apple",
+      "category": "smartphones",
+      "price": 499,
+      "discountPercentage": 10,
+      "stock": 45,
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/1/1.jpg",
+        "https://i.dummyjson.com/data/products/1/2.jpg",
+        "https://i.dummyjson.com/data/products/1/3.jpg",
+        "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ],
+      "rating": 0
     }
   ],
   "brands": [
@@ -1845,469 +1880,469 @@
       "value": "Apple",
       "label": "Apple",
       "checked": false,
-      "id": "64b6"
+      "id": "0d20"
     },
     {
       "value": "Samsung",
       "label": "Samsung",
       "checked": false,
-      "id": "a7e1"
+      "id": "22c7"
     },
     {
       "value": "OPPO",
       "label": "OPPO",
       "checked": false,
-      "id": "8c37"
+      "id": "0721"
     },
     {
       "value": "Huawei",
       "label": "Huawei",
       "checked": false,
-      "id": "99d1"
+      "id": "8208"
     },
     {
       "value": "Microsoft Surface",
       "label": "Microsoft Surface",
       "checked": false,
-      "id": "0c63"
+      "id": "24c5"
     },
     {
       "value": "Infinix",
       "label": "Infinix",
       "checked": false,
-      "id": "addf"
+      "id": "e51e"
     },
     {
       "value": "HP Pavilion",
       "label": "HP Pavilion",
       "checked": false,
-      "id": "c478"
+      "id": "b34b"
     },
     {
       "value": "Impression of Acqua Di Gio",
       "label": "Impression of Acqua Di Gio",
       "checked": false,
-      "id": "f44f"
+      "id": "8666"
     },
     {
       "value": "Royal_Mirage",
       "label": "Royal_Mirage",
       "checked": false,
-      "id": "8f48"
+      "id": "41ac"
     },
     {
       "value": "Fog Scent Xpressio",
       "label": "Fog Scent Xpressio",
       "checked": false,
-      "id": "12fd"
+      "id": "4fb6"
     },
     {
       "value": "Al Munakh",
       "label": "Al Munakh",
       "checked": false,
-      "id": "921b"
+      "id": "ed78"
     },
     {
       "value": "Lord - Al-Rehab",
       "label": "Lord   Al Rehab",
       "checked": false,
-      "id": "10d2"
+      "id": "9c6d"
     },
     {
       "value": "L'Oreal Paris",
       "label": "L'Oreal Paris",
       "checked": false,
-      "id": "122e"
+      "id": "178b"
     },
     {
       "value": "Hemani Tea",
       "label": "Hemani Tea",
       "checked": false,
-      "id": "0670"
+      "id": "e3bd"
     },
     {
       "value": "Dermive",
       "label": "Dermive",
       "checked": false,
-      "id": "d83a"
+      "id": "5cfb"
     },
     {
       "value": "ROREC White Rice",
       "label": "ROREC White Rice",
       "checked": false,
-      "id": "2649"
+      "id": "70f0"
     },
     {
       "value": "Fair & Clear",
       "label": "Fair & Clear",
       "checked": false,
-      "id": "0775"
+      "id": "ce22"
     },
     {
       "value": "Saaf & Khaas",
       "label": "Saaf & Khaas",
       "checked": false,
-      "id": "f2ba"
+      "id": "37be"
     },
     {
       "value": "Bake Parlor Big",
       "label": "Bake Parlor Big",
       "checked": false,
-      "id": "1b73"
+      "id": "f5c3"
     },
     {
       "value": "Baking Food Items",
       "label": "Baking Food Items",
       "checked": false,
-      "id": "4673"
+      "id": "8f35"
     },
     {
       "value": "fauji",
       "label": "fauji",
       "checked": false,
-      "id": "1803"
+      "id": "cffe"
     },
     {
       "value": "Dry Rose",
       "label": "Dry Rose",
       "checked": false,
-      "id": "4be9"
+      "id": "9e53"
     },
     {
       "value": "Boho Decor",
       "label": "Boho Decor",
       "checked": false,
-      "id": "bb73"
+      "id": "95fb"
     },
     {
       "value": "Flying Wooden",
       "label": "Flying Wooden",
       "checked": false,
-      "id": "f089"
+      "id": "67cc"
     },
     {
       "value": "LED Lights",
       "label": "LED Lights",
       "checked": false,
-      "id": "0c44"
+      "id": "24b7"
     },
     {
       "value": "luxury palace",
       "label": "luxury palace",
       "checked": false,
-      "id": "d774"
+      "id": "6d77"
     },
     {
       "value": "Golden",
       "label": "Golden",
       "checked": false,
-      "id": "5d2c"
+      "id": "1d60"
     },
     {
       "value": "Furniture Bed Set",
       "label": "Furniture Bed Set",
       "checked": false,
-      "id": "ece2"
+      "id": "e39c"
     },
     {
       "value": "Ratttan Outdoor",
       "label": "Ratttan Outdoor",
       "checked": false,
-      "id": "c208"
+      "id": "df99"
     },
     {
       "value": "Kitchen Shelf",
       "label": "Kitchen Shelf",
       "checked": false,
-      "id": "3865"
+      "id": "0317"
     },
     {
       "value": "Multi Purpose",
       "label": "Multi Purpose",
       "checked": false,
-      "id": "62b7"
+      "id": "4cf2"
     },
     {
       "value": "AmnaMart",
       "label": "AmnaMart",
       "checked": false,
-      "id": "bdf8"
+      "id": "c550"
     },
     {
       "value": "Professional Wear",
       "label": "Professional Wear",
       "checked": false,
-      "id": "6f86"
+      "id": "39eb"
     },
     {
       "value": "Soft Cotton",
       "label": "Soft Cotton",
       "checked": false,
-      "id": "99ba"
+      "id": "a036"
     },
     {
       "value": "Top Sweater",
       "label": "Top Sweater",
       "checked": false,
-      "id": "2f00"
+      "id": "ee43"
     },
     {
       "value": "RED MICKY MOUSE..",
       "label": "RED MICKY MOUSE..",
       "checked": false,
-      "id": "948b"
+      "id": "fe5b"
     },
     {
       "value": "Digital Printed",
       "label": "Digital Printed",
       "checked": false,
-      "id": "32a5"
+      "id": "154d"
     },
     {
       "value": "Ghazi Fabric",
       "label": "Ghazi Fabric",
       "checked": false,
-      "id": "7396"
+      "id": "80e0"
     },
     {
       "value": "IELGY",
       "label": "IELGY",
       "checked": false,
-      "id": "1e9d"
+      "id": "848a"
     },
     {
       "value": "IELGY fashion",
       "label": "IELGY fashion",
       "checked": false,
-      "id": "fad7"
+      "id": "04da"
     },
     {
       "value": "Synthetic Leather",
       "label": "Synthetic Leather",
       "checked": false,
-      "id": "80aa"
+      "id": "8f42"
     },
     {
       "value": "Sandals Flip Flops",
       "label": "Sandals Flip Flops",
       "checked": false,
-      "id": "4bed"
+      "id": "7757"
     },
     {
       "value": "Maasai Sandals",
       "label": "Maasai Sandals",
       "checked": false,
-      "id": "eca6"
+      "id": "0375"
     },
     {
       "value": "Arrivals Genuine",
       "label": "Arrivals Genuine",
       "checked": false,
-      "id": "63f8"
+      "id": "a8c7"
     },
     {
       "value": "Vintage Apparel",
       "label": "Vintage Apparel",
       "checked": false,
-      "id": "9ee7"
+      "id": "7561"
     },
     {
       "value": "FREE FIRE",
       "label": "FREE FIRE",
       "checked": false,
-      "id": "82e7"
+      "id": "0875"
     },
     {
       "value": "The Warehouse",
       "label": "The Warehouse",
       "checked": false,
-      "id": "091e"
+      "id": "58d4"
     },
     {
       "value": "Sneakers",
       "label": "Sneakers",
       "checked": false,
-      "id": "9915"
+      "id": "608c"
     },
     {
       "value": "Rubber",
       "label": "Rubber",
       "checked": false,
-      "id": "97e8"
+      "id": "5519"
     },
     {
       "value": "Naviforce",
       "label": "Naviforce",
       "checked": false,
-      "id": "3606"
+      "id": "6516"
     },
     {
       "value": "SKMEI 9117",
       "label": "SKMEI 9117",
       "checked": false,
-      "id": "f058"
+      "id": "41ab"
     },
     {
       "value": "Strap Skeleton",
       "label": "Strap Skeleton",
       "checked": false,
-      "id": "2566"
+      "id": "9400"
     },
     {
       "value": "Stainless",
       "label": "Stainless",
       "checked": false,
-      "id": "1332"
+      "id": "8f9c"
     },
     {
       "value": "Eastern Watches",
       "label": "Eastern Watches",
       "checked": false,
-      "id": "5c5f"
+      "id": "d874"
     },
     {
       "value": "Luxury Digital",
       "label": "Luxury Digital",
       "checked": false,
-      "id": "57b0"
+      "id": "8750"
     },
     {
       "value": "Watch Pearls",
       "label": "Watch Pearls",
       "checked": false,
-      "id": "3940"
+      "id": "35a7"
     },
     {
       "value": "Bracelet",
       "label": "Bracelet",
       "checked": false,
-      "id": "bfa6"
+      "id": "de24"
     },
     {
       "value": "LouisWill",
       "label": "LouisWill",
       "checked": false,
-      "id": "b5ce"
+      "id": "4218"
     },
     {
       "value": "Copenhagen Luxe",
       "label": "Copenhagen Luxe",
       "checked": false,
-      "id": "e521"
+      "id": "5eac"
     },
     {
       "value": "Steal Frame",
       "label": "Steal Frame",
       "checked": false,
-      "id": "e032"
+      "id": "9adb"
     },
     {
       "value": "Darojay",
       "label": "Darojay",
       "checked": false,
-      "id": "d283"
+      "id": "d74b"
     },
     {
       "value": "Fashion Jewellery",
       "label": "Fashion Jewellery",
       "checked": false,
-      "id": "45b9"
+      "id": "69fb"
     },
     {
       "value": "Cuff Butterfly",
       "label": "Cuff Butterfly",
       "checked": false,
-      "id": "f5df"
+      "id": "3af9"
     },
     {
       "value": "Designer Sun Glasses",
       "label": "Designer Sun Glasses",
       "checked": false,
-      "id": "694b"
+      "id": "523d"
     },
     {
       "value": "mastar watch",
       "label": "mastar watch",
       "checked": false,
-      "id": "f787"
+      "id": "9a50"
     },
     {
       "value": "Car Aux",
       "label": "Car Aux",
       "checked": false,
-      "id": "290e"
+      "id": "9312"
     },
     {
       "value": "W1209 DC12V",
       "label": "W1209 DC12V",
       "checked": false,
-      "id": "d6a2"
+      "id": "9d20"
     },
     {
       "value": "TC Reusable",
       "label": "TC Reusable",
       "checked": false,
-      "id": "d78d"
+      "id": "3443"
     },
     {
       "value": "Neon LED Light",
       "label": "Neon LED Light",
       "checked": false,
-      "id": "ee90"
+      "id": "d79f"
     },
     {
       "value": "METRO 70cc Motorcycle - MR70",
       "label": "METRO 70cc Motorcycle   MR70",
       "checked": false,
-      "id": "1cdd"
+      "id": "1b4a"
     },
     {
       "value": "BRAVE BULL",
       "label": "BRAVE BULL",
       "checked": false,
-      "id": "769b"
+      "id": "3c20"
     },
     {
       "value": "shock absorber",
       "label": "shock absorber",
       "checked": false,
-      "id": "c5d6"
+      "id": "2f86"
     },
     {
       "value": "JIEPOLLY",
       "label": "JIEPOLLY",
       "checked": false,
-      "id": "df00"
+      "id": "7568"
     },
     {
       "value": "Xiangle",
       "label": "Xiangle",
       "checked": false,
-      "id": "d04f"
+      "id": "325e"
     },
     {
       "value": "lightingbrilliance",
       "label": "lightingbrilliance",
       "checked": false,
-      "id": "31f7"
+      "id": "6763"
     },
     {
       "value": "Ifei Home",
       "label": "Ifei Home",
       "checked": false,
-      "id": "da25"
+      "id": "06bf"
     },
     {
       "value": "DADAWU",
       "label": "DADAWU",
       "checked": false,
-      "id": "99a8"
+      "id": "ee23"
     },
     {
       "value": "YIOSI",
       "label": "YIOSI",
       "checked": false,
-      "id": "5d7b"
+      "id": "739a"
     }
   ],
   "categories": [
@@ -2315,127 +2350,128 @@
       "value": "smartphones",
       "label": "smartphones",
       "checked": false,
-      "id": "8d87"
+      "id": "235d"
     },
     {
       "value": "laptops",
       "label": "laptops",
       "checked": false,
-      "id": "cae0"
+      "id": "7f97"
     },
     {
       "value": "fragrances",
       "label": "fragrances",
       "checked": false,
-      "id": "9a2f"
+      "id": "1894"
     },
     {
       "value": "skincare",
       "label": "skincare",
       "checked": false,
-      "id": "769e"
+      "id": "782b"
     },
     {
       "value": "groceries",
       "label": "groceries",
       "checked": false,
-      "id": "6da1"
+      "id": "97c5"
     },
     {
       "value": "home-decoration",
       "label": "home decoration",
       "checked": false,
-      "id": "e640"
+      "id": "883a"
     },
     {
       "value": "furniture",
       "label": "furniture",
       "checked": false,
-      "id": "e686"
+      "id": "7f17"
     },
     {
       "value": "tops",
       "label": "tops",
       "checked": false,
-      "id": "f5bb"
+      "id": "1892"
     },
     {
       "value": "womens-dresses",
       "label": "womens dresses",
       "checked": false,
-      "id": "2f0e"
+      "id": "fa45"
     },
     {
       "value": "womens-shoes",
       "label": "womens shoes",
       "checked": false,
-      "id": "93f3"
+      "id": "e334"
     },
     {
       "value": "mens-shirts",
       "label": "mens shirts",
       "checked": false,
-      "id": "1e68"
+      "id": "c222"
     },
     {
       "value": "mens-shoes",
       "label": "mens shoes",
       "checked": false,
-      "id": "7564"
+      "id": "dd50"
     },
     {
       "value": "mens-watches",
       "label": "mens watches",
       "checked": false,
-      "id": "c4a4"
+      "id": "ecc7"
     },
     {
       "value": "womens-watches",
       "label": "womens watches",
       "checked": false,
-      "id": "ac45"
+      "id": "942b"
     },
     {
       "value": "womens-bags",
       "label": "womens bags",
       "checked": false,
-      "id": "d1b8"
+      "id": "9fbc"
     },
     {
       "value": "womens-jewellery",
       "label": "womens jewellery",
       "checked": false,
-      "id": "277e"
+      "id": "5475"
     },
     {
       "value": "sunglasses",
       "label": "sunglasses",
       "checked": false,
-      "id": "e723"
+      "id": "0f58"
     },
     {
       "value": "automotive",
       "label": "automotive",
       "checked": false,
-      "id": "6abe"
+      "id": "04ab"
     },
     {
       "value": "motorcycle",
       "label": "motorcycle",
       "checked": false,
-      "id": "f826"
+      "id": "7012"
     },
     {
       "value": "lighting",
       "label": "lighting",
       "checked": false,
-      "id": "470d"
+      "id": "1977"
     }
   ],
   "users": [
     {
       "email": "test@gmail.com",
       "password": "Qwerty123",
+      "role": "user",
       "addresses": [
         {
           "name": "Abhishek Rathore",
@@ -2461,6 +2497,7 @@
     {
       "email": "demo@gmail.com",
       "password": "Qwerty123",
+      "role": "user",
       "addresses": [
         {
           "name": "Demo user",
@@ -2475,20 +2512,70 @@
       "id": "2"
     },
     {
-      "id": "756b",
+      "email": "p.poojan1762002@gmail.com",
+      "password": "Poojan1717",
+      "addresses": [],
+      "role": "admin",
+      "id": "3"
+    },
+    {
+      "id": "f557",
       "email": "p.poojan17062002@gmail.com",
       "password": "Poojan1717",
       "addresses": [
         {
           "name": "Poojan Patel",
+          "email": "p.poojan17062002@gmail.com",
+          "phone": "6588325421",
+          "street": "9 Balol nager society",
+          "city": "Ahemedabad",
+          "state": "Gujarat",
+          "pinCode": "382480"
+        },
+        {
+          "name": "Poojan Patel",
+          "email": "p.poojan17062002@gmail.com",
+          "phone": "4547877878",
+          "street": "9",
+          "city": "Ahemedabad",
+          "state": "Gujarat",
+          "pinCode": "382480"
+        },
+        {
+          "name": "Poojan Patel",
           "email": "p.poojan1762002@gmail.com",
-          "phone": "6359720007",
+          "phone": "06359720007",
           "street": "9",
           "city": "Ahemedabad",
           "state": "Gujarat",
           "pinCode": "382480"
         }
-      ]
+      ],
+      "role": "user"
+    },
+    {
+      "id": "42e8",
+      "email": "abc@gamil.com",
+      "password": "Abc123!@",
+      "addresses": [],
+      "role": "user"
+    },
+    {
+      "id": "3f37",
+      "email": "abc@gamil.com",
+      "password": "Poojan1717",
+      "addresses": [
+        {
+          "name": "abc",
+          "email": "abc@gamil.com",
+          "phone": "457545545512",
+          "street": "9",
+          "city": "Ahemedabad",
+          "state": "Gujarat",
+          "pinCode": "382480"
+        }
+      ],
+      "role": "user"
     }
   ],
   "cart": [],
@@ -2553,7 +2640,7 @@
         "state": "Karnataka",
         "pinCode": "560034"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": "1"
     },
     {
@@ -2616,7 +2703,7 @@
         "state": "Karnataka",
         "pinCode": "560034"
       },
-      "status": "pending",
+      "status": "delivered",
       "id": "2"
     },
     {
@@ -2686,7 +2773,7 @@
         "state": "Maharastra",
         "pinCode": "220001"
       },
-      "status": "pending",
+      "status": "cancelled",
       "id": "3"
     },
     {
@@ -2817,10 +2904,89 @@
       "id": "5"
     },
     {
-      "id": "623f",
       "items": [
         {
-          "id": "81a2",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 1,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1824,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Abhishek Rathore",
+            "email": "test@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Banaglore",
+            "state": "Karnataka",
+            "pinCode": "560034"
+          },
+          {
+            "name": "Jack Morris",
+            "email": "jack@gmail.com",
+            "city": "Delhi",
+            "state": "Delhi",
+            "pinCode": "110006",
+            "phone": "12312331232",
+            "street": "12th cross"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris",
+        "email": "jack@gmail.com",
+        "city": "Delhi",
+        "state": "Delhi",
+        "pinCode": "110006",
+        "phone": "12312331232",
+        "street": "12th cross"
+      },
+      "status": "pending",
+      "id": "6"
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        },
+        {
           "title": "Huawei P30",
           "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
           "price": 499,
@@ -2836,10 +3002,305 @@
             "https://i.dummyjson.com/data/products/5/3.jpg"
           ],
           "quantity": 1,
-          "user": "756b"
+          "user": 2,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1502,
+      "totalItems": 2,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Demo user",
+            "email": "demo@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Mumbai",
+            "state": "Maharastra",
+            "pinCode": "220001"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Demo user",
+        "email": "demo@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Mumbai",
+        "state": "Maharastra",
+        "pinCode": "220001"
+      },
+      "status": "pending",
+      "id": "7"
+    },
+    {
+      "items": [
+        {
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
         },
         {
-          "id": "29b5",
+          "title": "Huawei P30",
+          "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+          "price": 499,
+          "discountPercentage": 10.58,
+          "rating": 4.09,
+          "stock": 32,
+          "brand": "Huawei",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/5/1.jpg",
+            "https://i.dummyjson.com/data/products/5/2.jpg",
+            "https://i.dummyjson.com/data/products/5/3.jpg"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 2
+        }
+      ],
+      "totalAmount": 1502,
+      "totalItems": 2,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Demo user",
+            "email": "demo@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Mumbai",
+            "state": "Maharastra",
+            "pinCode": "220001"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Demo user",
+        "email": "demo@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Mumbai",
+        "state": "Maharastra",
+        "pinCode": "220001"
+      },
+      "status": "pending",
+      "id": "8"
+    },
+    {
+      "items": [
+        {
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1999,
+          "discountPercentage": 11.02,
+          "rating": 0,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/thumbnail.png"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1779,
+      "totalItems": 1,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Demo user",
+            "email": "demo@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Mumbai",
+            "state": "Maharastra",
+            "pinCode": "220001"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Demo user",
+        "email": "demo@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Mumbai",
+        "state": "Maharastra",
+        "pinCode": "220001"
+      },
+      "status": "pending",
+      "id": "9"
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 1346,
+      "totalItems": 1,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Demo user",
+            "email": "demo@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Mumbai",
+            "state": "Maharastra",
+            "pinCode": "220001"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Demo user",
+        "email": "demo@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Mumbai",
+        "state": "Maharastra",
+        "pinCode": "220001"
+      },
+      "status": "pending",
+      "id": "10"
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 2,
+          "id": 1
+        }
+      ],
+      "totalAmount": 2692,
+      "totalItems": 2,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Qwerty123",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Demo user",
+            "email": "demo@gmail.com",
+            "phone": "1234567788",
+            "street": "11th Main",
+            "city": "Mumbai",
+            "state": "Maharastra",
+            "pinCode": "220001"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Demo user",
+        "email": "demo@gmail.com",
+        "phone": "1234567788",
+        "street": "11th Main",
+        "city": "Mumbai",
+        "state": "Maharastra",
+        "pinCode": "220001"
+      },
+      "status": "pending",
+      "id": "11"
+    },
+    {
+      "id": "6601",
+      "items": [
+        {
+          "id": "dcb0",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        },
+        {
+          "id": "1ea9",
           "title": "HP Pavilion 15-DK1056WM",
           "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
           "price": 1099,
@@ -2856,32 +3317,496 @@
             "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
           ],
           "quantity": 1,
-          "user": "756b"
+          "user": "f557"
         }
       ],
-      "totalAmount": 1598,
+      "totalAmount": 1943,
       "totalItems": 2,
       "user": {
-        "id": "756b",
+        "id": "f557",
         "email": "p.poojan17062002@gmail.com",
         "password": "Poojan1717",
         "addresses": [
           {
             "name": "Poojan Patel",
-            "email": "p.poojan1762002@gmail.com",
-            "phone": "6359720007",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "6588325421",
+            "street": "9 Balol nager society",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Poojan Patel",
+        "email": "p.poojan17062002@gmail.com",
+        "phone": "6588325421",
+        "street": "9 Balol nager society",
+        "city": "Ahemedabad",
+        "state": "Gujarat",
+        "pinCode": "382480"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "9850",
+      "items": [
+        {
+          "id": "dd1a",
+          "title": "HP Pavilion 15-DK1056WM",
+          "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+          "price": 1099,
+          "discountPercentage": 6.18,
+          "rating": 4.43,
+          "stock": 89,
+          "brand": "HP Pavilion",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+          "images": [
+            "https://i.dummyjson.com/data/products/10/1.jpg",
+            "https://i.dummyjson.com/data/products/10/2.jpg",
+            "https://i.dummyjson.com/data/products/10/3.jpg",
+            "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        }
+      ],
+      "totalAmount": 1031,
+      "totalItems": 1,
+      "user": {
+        "id": "f557",
+        "email": "p.poojan17062002@gmail.com",
+        "password": "Poojan1717",
+        "addresses": [
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "6588325421",
+            "street": "9 Balol nager society",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Poojan Patel",
+        "email": "p.poojan17062002@gmail.com",
+        "phone": "6588325421",
+        "street": "9 Balol nager society",
+        "city": "Ahemedabad",
+        "state": "Gujarat",
+        "pinCode": "382480"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "9b8d",
+      "items": [
+        {
+          "id": "cf4a",
+          "title": "Hyaluronic Acid Serum",
+          "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+          "price": 19,
+          "discountPercentage": 13.31,
+          "rating": 4.83,
+          "stock": 110,
+          "brand": "L'Oreal Paris",
+          "category": "skincare",
+          "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/16/1.png",
+            "https://i.dummyjson.com/data/products/16/2.webp",
+            "https://i.dummyjson.com/data/products/16/3.jpg",
+            "https://i.dummyjson.com/data/products/16/4.jpg",
+            "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        },
+        {
+          "id": "14b1",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 993,
+          "discountPercentage": 12.96,
+          "rating": 0,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        }
+      ],
+      "totalAmount": 880,
+      "totalItems": 2,
+      "user": {
+        "id": "f557",
+        "email": "p.poojan17062002@gmail.com",
+        "password": "Poojan1717",
+        "addresses": [
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "6588325421",
+            "street": "9 Balol nager society",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          },
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "4547877878",
             "street": "9",
             "city": "Ahemedabad",
             "state": "Gujarat",
             "pinCode": "382480"
           }
-        ]
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Poojan Patel",
+        "email": "p.poojan17062002@gmail.com",
+        "phone": "4547877878",
+        "street": "9",
+        "city": "Ahemedabad",
+        "state": "Gujarat",
+        "pinCode": "382480"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "1a2d",
+      "items": [
+        {
+          "id": "6d7c",
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 1111,
+          "discountPercentage": 17.94,
+          "rating": 0,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        },
+        {
+          "id": "4c0b",
+          "title": "Samsung Galaxy Book",
+          "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+          "price": 1499,
+          "discountPercentage": 4.15,
+          "rating": 4.25,
+          "stock": 50,
+          "brand": "Samsung",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/7/1.jpg",
+            "https://i.dummyjson.com/data/products/7/2.jpg",
+            "https://i.dummyjson.com/data/products/7/3.jpg",
+            "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+          ],
+          "quantity": 5,
+          "user": "f557"
+        }
+      ],
+      "totalAmount": 8097,
+      "totalItems": 6,
+      "user": {
+        "id": "f557",
+        "email": "p.poojan17062002@gmail.com",
+        "password": "Poojan1717",
+        "addresses": [
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "6588325421",
+            "street": "9 Balol nager society",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          },
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "4547877878",
+            "street": "9",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Poojan Patel",
+        "email": "p.poojan17062002@gmail.com",
+        "phone": "6588325421",
+        "street": "9 Balol nager society",
+        "city": "Ahemedabad",
+        "state": "Gujarat",
+        "pinCode": "382480"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "a7f6",
+      "items": [
+        {
+          "id": "7e0b",
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1999,
+          "discountPercentage": 11.02,
+          "rating": 0,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/thumbnail.png"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        },
+        {
+          "id": "2dd5",
+          "title": "Samsung Universe 9",
+          "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+          "price": 1249,
+          "discountPercentage": 15.46,
+          "rating": 4.09,
+          "stock": 36,
+          "brand": "Samsung",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
+          "quantity": 4,
+          "user": "f557"
+        }
+      ],
+      "totalAmount": 6003,
+      "totalItems": 5,
+      "user": {
+        "id": "f557",
+        "email": "p.poojan17062002@gmail.com",
+        "password": "Poojan1717",
+        "addresses": [
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "6588325421",
+            "street": "9 Balol nager society",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          },
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "4547877878",
+            "street": "9",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          },
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan1762002@gmail.com",
+            "phone": "06359720007",
+            "street": "9",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          }
+        ],
+        "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
         "name": "Poojan Patel",
         "email": "p.poojan1762002@gmail.com",
-        "phone": "6359720007",
+        "phone": "06359720007",
+        "street": "9",
+        "city": "Ahemedabad",
+        "state": "Gujarat",
+        "pinCode": "382480"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "e75e",
+      "items": [
+        {
+          "id": "5ba0",
+          "title": "iPhone 9",
+          "description": "An apple mobile which is nothing like apple",
+          "price": 993,
+          "discountPercentage": 12.96,
+          "rating": 0,
+          "stock": 94,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/1/1.jpg",
+            "https://i.dummyjson.com/data/products/1/2.jpg",
+            "https://i.dummyjson.com/data/products/1/3.jpg",
+            "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "f557"
+        }
+      ],
+      "totalAmount": 864,
+      "totalItems": 1,
+      "user": {
+        "id": "f557",
+        "email": "p.poojan17062002@gmail.com",
+        "password": "Poojan1717",
+        "addresses": [
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "6588325421",
+            "street": "9 Balol nager society",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          },
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan17062002@gmail.com",
+            "phone": "4547877878",
+            "street": "9",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          },
+          {
+            "name": "Poojan Patel",
+            "email": "p.poojan1762002@gmail.com",
+            "phone": "06359720007",
+            "street": "9",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Poojan Patel",
+        "email": "p.poojan17062002@gmail.com",
+        "phone": "4547877878",
+        "street": "9",
+        "city": "Ahemedabad",
+        "state": "Gujarat",
+        "pinCode": "382480"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "01e9",
+      "items": [
+        {
+          "id": "0c30",
+          "title": "OPPOF19",
+          "description": "OPPO F19 is officially announced on April 2021.",
+          "price": 300,
+          "discountPercentage": 17.91,
+          "rating": 0,
+          "stock": 123,
+          "brand": "OPPO",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/4/1.jpg",
+            "https://i.dummyjson.com/data/products/4/2.jpg",
+            "https://i.dummyjson.com/data/products/4/3.jpg",
+            "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "3f37"
+        },
+        {
+          "id": "7dfd",
+          "title": "women's shoes",
+          "description": "Close: Lace, Style with bottom: Increased inside, Sole Material: Rubber",
+          "price": 40,
+          "discountPercentage": 16.96,
+          "rating": 4.14,
+          "stock": 72,
+          "brand": "IELGY fashion",
+          "category": "womens-shoes",
+          "thumbnail": "https://i.dummyjson.com/data/products/46/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/46/1.webp",
+            "https://i.dummyjson.com/data/products/46/2.jpg",
+            "https://i.dummyjson.com/data/products/46/3.jpg",
+            "https://i.dummyjson.com/data/products/46/4.jpg",
+            "https://i.dummyjson.com/data/products/46/thumbnail.jpg"
+          ],
+          "quantity": 1,
+          "user": "3f37"
+        }
+      ],
+      "totalAmount": 279,
+      "totalItems": 2,
+      "user": {
+        "id": "3f37",
+        "email": "abc@gamil.com",
+        "password": "Poojan1717",
+        "addresses": [
+          {
+            "name": "abc",
+            "email": "abc@gamil.com",
+            "phone": "457545545512",
+            "street": "9",
+            "city": "Ahemedabad",
+            "state": "Gujarat",
+            "pinCode": "382480"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "abc",
+        "email": "abc@gamil.com",
+        "phone": "457545545512",
         "street": "9",
         "city": "Ahemedabad",
         "state": "Gujarat",
